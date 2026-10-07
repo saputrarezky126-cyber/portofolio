@@ -1,0 +1,82 @@
+/**
+ * ============================================================
+ *  FILE PENGATUR WARNA PORTOFOLIO
+ *  Lokasi: src/theme/colors.css
+ *
+ *  Cara pakai:
+ *  1. Ubah nilai HEX di bawah (contoh: #4f46e5)
+ *  2. Simpan — UI otomatis ikut berubah (btn-primary, text-primary, dll)
+ *  3. Tidak perlu mengedit komponen di components/portofolio/
+ *
+ *  Tip:
+ *  - --color-primary          = warna utama (tombol, highlight)
+ *  - --color-primary-content  = teks di atas warna primary (biasanya putih)
+ *  - --color-base-100         = background halaman
+ *  - --color-base-content     = warna teks utama
+ * ============================================================
+ */
+
+/* ---------- LIGHT MODE (default DaisyUI, bisa diganti) ---------- */
+[data-theme="light"],
+:root {
+  /* Latar & teks */
+  --color-base-100: #ffffff;
+  --color-base-200: #fafafa;
+  --color-base-300: #f3f4f6;
+  --color-base-content: #1f2937;
+
+  /* Brand */
+  --color-primary: #570df8;
+  --color-primary-content: #ffffff;
+
+  --color-secondary: #f000b8;
+  --color-secondary-content: #ffffff;
+
+  --color-accent: #37cdbe;
+  --color-accent-content: #07312d;
+
+  --color-neutral: #2a323c;
+  --color-neutral-content: #f3f4f6;
+
+  /* Status */
+  --color-info: #3abff8;
+  --color-info-content: #002b3d;
+  --color-success: #36d399;
+  --color-success-content: #003320;
+  --color-warning: #fbbd23;
+  --color-warning-content: #382800;
+  --color-error: #f87272;
+  --color-error-content: #470000;
+}
+
+/* ---------- DARK MODE ---------- */
+[data-theme="dark"] {
+  /* Latar & teks */
+  --color-base-100: #1d232a;
+  --color-base-200: #191e24;
+  --color-base-300: #15191e;
+  --color-base-content: #a6adbb;
+
+  /* Brand */
+  --color-primary: #747fff;
+  --color-primary-content: #050617;
+
+  --color-secondary: #f000b8;
+  --color-secondary-content: #ffffff;
+
+  --color-accent: #37cdbe;
+  --color-accent-content: #07312d;
+
+  --color-neutral: #2a323c;
+  --color-neutral-content: #f3f4f6;
+
+  /* Status */
+  --color-info: #3abff8;
+  --color-info-content: #002b3d;
+  --color-success: #36d399;
+  --color-success-content: #003320;
+  --color-warning: #fbbd23;
+  --color-warning-content: #382800;
+  --color-error: #f87272;
+  --color-error-content: #470000;
+}
